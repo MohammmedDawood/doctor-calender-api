@@ -1,0 +1,26 @@
+{
+  "name": "doctor-calender-api",
+  "version": "1.0.0",
+  "description": "Doctor appointment system calender.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Mohammed Dawood",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
+    "morgan": "^1.10.0",
+    "nanoid": "^3.1.30",
+    "path": "^0.12.7"
+  }
+}
